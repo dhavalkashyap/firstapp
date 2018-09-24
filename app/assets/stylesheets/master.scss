@@ -2,6 +2,7 @@
 
 .clear{
   clear: both;
+
 }
 .circle {
     font-weight: bold;
@@ -34,10 +35,20 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'exoblack_italic';
+  font-weight: bold;
 }
 header{
     border-top: 9px solid #222222;
 }
 hr {
   clear:both;
+}
+h1 {
+  font-family: 'NexaRustSlab-BlackShadow01-Free';
+  font-weight: bold;
+  font-size: 48px;
+}
+h2 {
+  font-family: 'exobold';
 }
