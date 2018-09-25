@@ -32,7 +32,23 @@
     <hr />
 
     <br class="clear" />
-
+    <div class="containter">
     <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="containter">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote'%>
+          </div>
+          <div class="col-6 footer-blurb">
+            Read you Bible daily <a href="https://online.recoveryversion.bible/">New Testment Recovery Version</a><br />
+            Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
